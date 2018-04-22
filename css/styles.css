@@ -51,10 +51,10 @@ button,
 .button {
   margin: 1em 0.5em;
   font-size: 1.25em;
-  padding: 0.25em;
+  padding: 0.5em;
   width: 100%;
   border-style: solid;
-  border-width: 0.25em;
+  border-width: 0.1em;
   border-radius: 0.5em;
   display: block;
 }
@@ -121,7 +121,7 @@ img {
 .boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: baseline;
 }
 .header {
@@ -254,7 +254,7 @@ em,
   text-align: center;
   height: 100%;
   margin-top: -5em;
-  padding: 8em 2em;
+  padding: 8em 2.5em 1em;
 }
 .product__name {
   background-color: orange;
@@ -308,13 +308,15 @@ em,
 }
 /* ====================== Images ====================== */
 .laptop-container {
-  background: url("/img_src/laptop.png");
+  background: url("../img_src/laptop.png");
   background-size: contain;
   background-repeat: no-repeat;
   /* height: 30vw; */
+  background-position-y: center;
+  background-position-x: left;
 }
 .phone-container {
-  background-image: url("/img_src/phone.jpg");
+  background-image: url("../img_src/phone.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -356,7 +358,7 @@ nav h1 a {
 }
 /* ====================== Top ====================== */
 #top-container {
-  background-image: url("/img_src/building_crane.jpg");
+  background-image: url("../img_src/building_crane.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 90vh;
@@ -391,6 +393,6 @@ nav h1 a {
     padding: 1em 5em 1em 5em;
   }
   .product {
-    width: 20%;
+    width: 25%;
   }
 }

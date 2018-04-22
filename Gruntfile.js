@@ -115,7 +115,7 @@ module.exports = function(grunt) {
         }],
         options: {
           process: function (content, srcpath) {
-            return content.replace(/<!-- base -->/i, '<base href="https://identidadgh.github.io/mws-restaurant-stage-1/index.html">');
+            return content.replace(/<!-- base -->/i, '<base href="https://identidadgh.github.io/smart-jr-eval-fam/index.html">');
           }
         }
       },
