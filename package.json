@@ -1,0 +1,28 @@
+{
+  "name": "Pre-Sale",
+  "version": "1.0.0",
+  "description": "Pre-Sale app",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/identidadgh/smart-jr-eval-fam.git"
+  },
+  "author": "Edison Gomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/identidadgh/smart-jr-eval-fam/issues"
+  },
+  "homepage": "https://github.com/identidadgh/smart-jr-eval-fam#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "run-sequence": "^2.2.1"
+  }
+}
