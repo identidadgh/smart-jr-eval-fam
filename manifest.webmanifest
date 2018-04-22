@@ -1,0 +1,9 @@
+{
+  "name": "Pre-Sale",
+  "short_name": "Pre-Sale",
+  "scope": "./",
+  "display": "standalone",
+  "start_url": "./?utm_source=homescreen",
+  "background_color": "#2196F3",
+  "theme_color": "#2196F3"
+}
